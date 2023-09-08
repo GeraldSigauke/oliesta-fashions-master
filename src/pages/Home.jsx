@@ -359,16 +359,16 @@ const Home = () => {
           </div>
 
           <div className="row">
-            <div className="col-3">
+            <div className="col-6 mb-3">
               <BlogCard />
             </div>
-            <div className="col-3">
+            <div className="col-6 mb-3">
               <BlogCard />
             </div>
-            <div className="col-3">
+            <div className="col-6 mb-3">
               <BlogCard />
             </div>
-            <div className="col-3">
+            <div className="col-6 mb-3">
               <BlogCard />
             </div>
           </div>
