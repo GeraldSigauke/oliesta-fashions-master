@@ -1009,8 +1009,8 @@ a {
 /* Next Page Ends Here */
 
 
-/* Extra Small Devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra Small Devices (phones, 575px and down) */
+@media only screen and (max-width: 575px) {
   #logoContainer {
     width: 100%;
     padding-bottom: 10px;
@@ -1100,14 +1100,14 @@ a {
   }
 }
 
-/* Small Devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Small Devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
   #logoContainer {
-    width: 100%;
+    /* width: 100%; */
     padding-bottom: 10px;
   }
   #search-bar {
-    width: 100%;
+    /* width: 100%; */
     padding-bottom: 15px;
   }
   /* #compare-products {
@@ -1192,10 +1192,50 @@ a {
 }
 
 /* Medium Devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  #logoContainer {
+    padding-bottom: 10px;
+  }
+  #search-bar {
+    padding-bottom: 15px;
+  }
+}
 
 /* Large Devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  #logoContainer {
+    padding-bottom: 10px;
+    /* width: 200px; */
+  }
+  #search-bar {
+    padding-bottom: 15px;
+    /* width: 200px; */
+  }
+  #compare-products {
+    font-size: 14px;
+  }
+  #favourite-wishlist {
+    font-size: 14px;
+  }
+  #log-in-my-account {
+    font-size: 14px;
+  }
+  #checkout-amount {
+    font-size: 14px;
+  }
+  #menu-button {
+    justify-content: flex-start;
+  }
+  #menu-links-parent {
+    justify-content: flex-start;
+  }
+  /* #services-container {
+    display: flex;
+  }
+  #each-service {
+    flex-direction: row;
+  } */
+}
 
 /* Extra Large Devices (large laptops and desktops,1200px and up) */
 @media only screen and (min-width: 1200px) {}

@@ -118,8 +118,8 @@ const Home = () => {
       </Container>
       <Container class1="home-wrapper-2 py-5">
         <div className="container-xxl">
-          <div className="row">
-            <div className="col-12">
+          <div id='services-container' className="row">
+            <div id='each-service' className="col-12">
                 <div id="services" className="services d-flex align-items-center justify-content-between row">
 
                   {
